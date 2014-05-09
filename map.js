@@ -35,7 +35,7 @@ function initialize() {
           infoWindow.setContent(contentString);
 
         });
-      };
+      }
 
       feedString(this.label);
       infoWindow.setPosition(event.latLng);
